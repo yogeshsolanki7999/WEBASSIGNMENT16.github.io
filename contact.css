@@ -1,0 +1,59 @@
+
+body{
+    margin: 0px;
+    background-color: honeydew;
+}
+
+.head-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: gray;
+}
+nav{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    background-color: gray;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+input{
+    width: 600px;
+    height: 35px;
+    
+    margin-top: 6px;
+    border-radius: 10px;
+    border: none;
+    font-size: 23px;
+}
+div{
+    height: 100%;
+    width: 100%;
+    background-color: gainsboro;
+    position: absolute;
+    top: 16%;
+    
+    overflow: scroll;
+    position: fixed;
+}
+div > h3{
+    position: sticky;
+    background-color:gray;
+    top: 0%;
+}
+ div > p{
+    text-align: justify;
+    font-size: 24px;
+    margin-top: 0px;
+    background-color: white;
+
+}
+ header > p {
+     font-size: large;
+ }
+ h3{
+     height:35px;
+     
+ }
